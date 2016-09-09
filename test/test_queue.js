@@ -51,7 +51,7 @@ describe('Queue', function () {
         });
 
         it('can be retrieved', function (done) {
-            queue.get(job.data._id.toString(), function (err, doc) {
+            queue.get(job.data._id, function (err, doc) {
                 if (err) return done(err);
 
                 assert.ok(doc);

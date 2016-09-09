@@ -1,9 +1,9 @@
 {
   "name": "monq",
-  "version": "0.3.4",
+  "version": "1.0.0",
   "description": "MongoDB-backed job queue for Node.js",
-  "homepage": "http://github.com/scttnlsn/monq",
-  "author": "Scott Nelson <scott@scttnlsn.com>",
+  "homepage": "http://github.com/frankdsm/monq",
+  "author": "Frank Desmettre <frank.desmettre@gmail.com>",
   "license": "MIT",
   "main": "./lib/index",
   "scripts": {
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/scttnlsn/monq.git"
+    "url": "git://github.com/franksm/monq.git"
   },
   "dependencies": {
-    "mongojs": "^2.1.0"
   },
   "devDependencies": {
-    "async": "^1.5.0",
-    "mocha": "^2.3.4",
-    "sinon": "^1.17.2"
+    "async": "~1.5.0",
+    "mocha": "~2.3.4",
+    "sinon": "~1.17.2",
+    "mongodb": "~2.1.18"
   }
 }

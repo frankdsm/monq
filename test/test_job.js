@@ -61,7 +61,7 @@ describe('Job', function () {
                 if (err) return done(err);
 
                 assert.equal(job.data.foo, 'bar');
-                
+
                 job.data.foo = 'baz';
                 job.save(done);
             });
