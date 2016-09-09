@@ -9,11 +9,11 @@ Monq is a MongoDB-backed job queue for Node.js.
 Usage
 -----
 
-Connect to MongoDB by specifying a URI or providing `host`, `port` and `database` options:
+Connect to MongoDB by mongodb connection:
 
 ```javascript
 var monq = require('monq');
-var client = monq('mongodb://localhost:27017/monq_example');
+var client = monq(mongodbConnection);
 ```
 
 Enqueue jobs by supplying a job name and a set of parameters.  Below, the job `reverse` is being placed into the `example` queue:
