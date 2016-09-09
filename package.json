@@ -1,6 +1,6 @@
 {
   "name": "monq",
-  "version": "0.3.4",
+  "version": "1.0.0",
   "description": "MongoDB-backed job queue for Node.js",
   "homepage": "http://github.com/frankdsm/monq",
   "author": "Frank Desmettre <frank.desmettre@gmail.com>",
